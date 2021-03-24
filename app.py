@@ -7,7 +7,8 @@ app = Flask(__name__, template_folder="templates")
 app.secret_key = b'_5#y2Q8z\n\xec]/'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///weather.db'
 db = SQLAlchemy(app)
-API_KEY = "163c7bfda7813e021647b3a800bd7b7b"
+
+API_KEY = "your_api_token"
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 
 
